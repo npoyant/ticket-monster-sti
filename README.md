@@ -30,5 +30,5 @@ For this to run properly the `WAR_FILE_URL` property in the `environment` file s
 Example usage:  
 ```bash
 oc project test-proj && \
-oc new-app registry.access.redhat.com/jboss-eap-6/eap-openshift~http://github.com/rhtconsulting/ticket-monster-build.git --name=ticket-monster-build --namespace=test-proj
+oc new-app registry.access.redhat.com/jboss-eap-6/eap64-openshift~http://github.com/rhtconsulting/ticket-monster-build.git --name=ticket-monster-build --namespace=test-proj
 ```
